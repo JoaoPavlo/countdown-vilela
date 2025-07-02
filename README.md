@@ -2,6 +2,9 @@
 
 Uma aplicação web moderna com um countdown de 30 dias, construída com Flask e design responsivo.
 
+## 🌐 **Site Online**
+**URL:** https://countdown-vilela.onrender.com/
+
 ## Funcionalidades
 
 - ⏰ Countdown em tempo real (dias, horas, minutos, segundos)
@@ -55,6 +58,7 @@ Project1/
 - **Design**: CSS Grid, Flexbox, Gradientes
 - **Fontes**: Google Fonts (Inter)
 - **Responsividade**: Media Queries
+- **Deploy**: Render.com
 
 ## Personalização
 
@@ -62,3 +66,7 @@ Para alterar o período do countdown, edite a linha 8 no arquivo `app.py`:
 ```python
 target_date = datetime.now() + timedelta(days=30)  # Altere o número 30
 ```
+
+## Deploy
+
+Este projeto está hospedado no Render.com. Para mais informações sobre o processo de deploy, consulte o arquivo `DEPLOY.md`.
