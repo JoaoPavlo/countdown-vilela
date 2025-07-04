@@ -9,5 +9,8 @@ def index():
     target_date = datetime.now() + timedelta(days=30)
     return render_template('index.html', target_date=target_date.isoformat())
 
+# This is what Render expects
+application = app
+
 if __name__ == '__main__':
     app.run() 
